@@ -1,9 +1,7 @@
-.ba-menu{
-    display: flex;
-    align-items: center;
-}
+.ba-menu {
+  display: flex;
+  align-items: center; }
 
 .ba-menu__link {
-    color: inherit;
-    text-decoration: none;
-}
+  color: inherit;
+  text-decoration: none; }
