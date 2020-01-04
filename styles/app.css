@@ -137,7 +137,6 @@
   position: relative;
   font-family: "GothamBook";
   text-transform: uppercase;
-  background-image: linear-gradient(45deg, rgba(85, 183, 255, 0.9) 0%, rgba(126, 90, 255, 0.9) 100%), url(../img/11111111111tu-tram-pham-202263.jpg);
   background-size: cover;
   background-color: #fff;
   max-width: 100%;
@@ -172,6 +171,18 @@
     width: 40px;
     position: absolute;
     bottom: 60px; }
+
+.ba-header0 {
+  background-image: linear-gradient(45deg, rgba(85, 183, 255, 0.9) 0%, rgba(126, 90, 255, 0.9) 100%), url(../img/11111111111tu-tram-pham-202263.jpg); }
+
+.ba-header1 {
+  background-image: linear-gradient(45deg, rgba(85, 183, 255, 0.9) 0%, rgba(126, 90, 255, 0.9) 100%), url(../img/matthew-hamilton-202227.jpg); }
+
+.ba-header2 {
+  background-image: linear-gradient(45deg, rgba(85, 183, 255, 0.9) 0%, rgba(126, 90, 255, 0.9) 100%), url(../img/scott-webb-176434.jpg); }
+
+.ba-header3 {
+  background-image: linear-gradient(45deg, rgba(85, 183, 255, 0.9) 0%, rgba(126, 90, 255, 0.9) 100%), url(../img/joel-filipe-151697.jpg); }
 
 .ba-title__line {
   margin-top: 60px;

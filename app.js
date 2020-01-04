@@ -72,7 +72,22 @@ $(document).ready(function () {
     });
 
 
+    // $('.slider1').slick({
+    //     arrows:false,
+    //     dots:true,
+    //     customPaging:function(){return ''}
+    //   })
 
+    // $(function(){
+    //     let count = 0;
+    //     setInterval(function() {
+    //       if ( count == 0 ) $( 'body' ).removeClass( 'ba-header3' );
+    //       $( 'header' ).removeClass( 'ba-header'+count );
+    //       count++;
+    //       $( 'header' ).addClass( 'ba-header'+count );
+    //       if ( count == 3 ) count = 0;
+    //     }, 5000);
+    //   });
 
 })
 
@@ -255,3 +270,6 @@ function initMap() {
         icon: image 
     });
 }
+
+
+
