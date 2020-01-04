@@ -2,7 +2,8 @@
 $containerWidth:1170px;
 $gap:15px;
 $columnsCoun:12;
-$colwidth:100 / $columnsCoun;
+$colwidth:100% / $columnsCoun;
+
 * {
     box-sizing: border-box;
 }
@@ -34,7 +35,7 @@ $colwidth:100 / $columnsCoun;
     width: 100%;
 }
 
-@for $i from 1 through $colwidth {
+@for $i from 1 through $columnsCoun {
     .ba-col-#{$i} {
         width: $colwidth * $i;
     }

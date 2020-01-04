@@ -38,7 +38,6 @@
   padding: 0; }
   .ba-menu__item {
     text-decoration: none;
-    list-style: none;
     margin-left: 40px; }
     .ba-menu__item:nth-child(4) {
       margin-right: 40px; }
@@ -107,6 +106,8 @@
   height: 1px;
   width: 100px;
   background-color: #2c4058; }
+  .ba-title__line_white {
+    background-color: #fff; }
 
 h2 {
   font-family: "GothamBook";
@@ -121,8 +122,8 @@ h2 {
     align-items: center;
     text-align: left; }
   .ba-about__img {
-    width: 630px;
-    height: 470px;
+    max-width: 630px;
+    max-height: 470px;
     margin-right: 40px; }
     .ba-about__img_back {
       position: absolute;
@@ -178,16 +179,12 @@ h2 {
 
 .showModal__text {
   font-size: 18px;
-  /* display: inline-block; */
   max-width: 90%;
   text-align: left;
   margin: 0 auto; }
 
 .showModal__img {
-  /* border: 0; */
   margin: 0 auto;
-  /* text-align: center; */
-  /* left: 100px; */
   display: block;
   max-width: 90%;
   height: auto; }
@@ -204,3 +201,150 @@ h2 {
   width: 50vw;
   overflow: scroll;
   height: 90vh; }
+
+.ba-title__white {
+  display: inline-block;
+  color: #fff;
+  margin-top: 80px; }
+
+.ba-news {
+  height: 1035px;
+  text-align: center;
+  background-image: linear-gradient(45deg, rgba(126, 90, 255, 0.9) 0%, rgba(85, 183, 255, 0.9) 100%), url(../img/newsBG.png);
+  background-size: cover;
+  background-color: #fff; }
+  .ba-news_card {
+    background-color: #fff; }
+  .ba-news__thumb {
+    width: 100%;
+    height: 240px; }
+  .ba-news__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .ba-news__head {
+    text-align: left;
+    margin: 15px; }
+  .ba-news__title {
+    font-family: "GothamBook";
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 0; }
+  .ba-news__text {
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    line-height: 30px;
+    font-family: "Open Sans";
+    font-size: 18px; }
+  .ba-news-author {
+    display: flex;
+    align-items: center; }
+    .ba-news-author__img {
+      margin: 15px; }
+    .ba-news-author__name {
+      font-family: "gothambold1";
+      font-size: 18px;
+      line-height: 22px;
+      color: #55b7ff;
+      text-transform: uppercase; }
+
+.slick-dots {
+  position: relative;
+  bottom: -530px; }
+
+.ba-galery {
+  height: 1000px;
+  display: block;
+  text-align: center; }
+  .ba-galery__flex {
+    margin: 100px 0; }
+  .ba-galery__img {
+    padding: 15px 0; }
+    .ba-galery__img-small {
+      height: 50%; }
+  .ba-galery__img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+#map {
+  height: 700px;
+  background-color: #414040; }
+
+#contact {
+  position: relative; }
+
+.ba-contact {
+  font-family: "GothamBook";
+  font-size: 18px;
+  line-height: 34px;
+  text-align: center;
+  width: 770px;
+  height: 450px;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 400px;
+  bottom: 0;
+  right: 0; }
+  .ba-contact-block {
+    display: flex;
+    text-align: left;
+    margin: 0 60px; }
+  .ba-contact-info {
+    width: 50%;
+    height: 100%; }
+  .ba-contact-form {
+    position: relative;
+    width: 50%;
+    height: 100%; }
+    .ba-contact-form__input {
+      font-size: 18px;
+      line-height: 40px;
+      width: 100%;
+      color: #a5aab0;
+      border: none;
+      border-bottom: 1px solid #a5aab0; }
+      .ba-contact-form__input:focus {
+        outline: none;
+        border-color: black;
+        color: black; }
+  .ba-contact__img {
+    width: 13px;
+    height: 13px;
+    color: #7e5aff; }
+
+.ba-btn-form {
+  width: 150px;
+  right: 0;
+  position: absolute;
+  top: 150%; }
+
+.ba-footer {
+  border-top: 60px solid #fff;
+  border-left: 30px solid #fff;
+  text-align: center;
+  height: 525px;
+  color: #fff;
+  background-image: linear-gradient(rgba(85, 183, 255, 0.9) 0%, rgba(126, 90, 255, 0.9) 100%), url(../img/scott-webb-176434.jpg);
+  background-size: cover;
+  background-color: #fff; }
+  .ba-footer__container {
+    width: 830px; }
+  .ba-footer__top {
+    padding-top: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .ba-footer__copyrights {
+    padding-top: 20px;
+    font-family: "GothamBook";
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left; }
+  .ba-footer__img {
+    width: 13px;
+    height: 13px; }
